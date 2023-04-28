@@ -16,17 +16,7 @@ pairs_concurrency_batch = []
 
 # commands
 bechmark = "inception_graphdef"
-results_dir = "/home/noa/config_settings/"
-
-get_statistics = "./clients/bin/perf_analyzer \
-        -m {benchmark} \
-        --percentile=99 \
-        --measurement-mode count_windows \
-        --measurement-request-count 10000 \
-        --concurrency-range {concurrency_range} \
-        -b {batch_size} \
-        -f {output_dir}/perf_analyzer.csv > {output_dir}/perf_analyzer.txt "
-
+results_dir = "../data/config_settings"
 setup = "./reset_intel.sh"
 
 # find sum of cpu_limit and gpu_limit equal to total

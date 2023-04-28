@@ -27,8 +27,8 @@ total_limits = range(total_min_limit, total_max_limit + 1, total_step)
 
 # commands
 bechmark = "inception_graphdef"
-graph_dir = "/home/noa/graph_performance/{benchmark}"
-data_dir = "/home/noa/results_performance/{benchmark}"
+graph_dir = "../graphs/graph_performance/{benchmark}" # graphs aren't actually being put here atm
+data_dir = "../data/results_performance/{benchmark}"
 
 # cpu in uW
 set_cpu_limit = "sudo powercap-set intel-rapl -z 0 -c 0 -l {cpu_limit}"

@@ -15,9 +15,9 @@ pairs_concurrency_batch = []
 
 # commands
 bechmark = "inception_graphdef"
-results_dir = "/home/noa/config_settings/"
+results_dir = "../data/config_settings/"
 
-get_statistics = "./clients/bin/perf_analyzer \
+get_statistics = "../../model/clients/bin/perf_analyzer \
         -m {benchmark} \
         --percentile=99 \
         --measurement-mode count_windows \

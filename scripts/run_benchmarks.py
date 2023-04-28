@@ -23,10 +23,10 @@ total_limits = range(total_min_limit, total_max_limit + 1, total_step)
 
 # commands
 bechmark = "inception_graphdef"
-results_dir = "/home/noa/results_performance/{benchmark}"
+results_dir = "../data/results_performance/{benchmark}"
 
 get_statistics = "taskset -c {cpus} \
-    ./clients/bin/perf_analyzer \
+    ../../model/clients/bin/perf_analyzer \
         -m {benchmark} \
         --percentile=90 \
         --measurement-mode count_windows \
