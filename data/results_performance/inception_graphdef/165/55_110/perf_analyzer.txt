@@ -1,0 +1,24 @@
+*** Measurement Settings ***
+  Batch size: 16
+  Using "count_windows" mode for stabilization
+  Minimum number of samples in each window: 10000
+  Using synchronous calls for inference
+  Stabilizing using p90 latency
+
+Request concurrency: 64
+  Client: 
+    Request count: 30021
+    Throughput: 370.588 infer/sec
+    p50 latency: 2652384 usec
+    p90 latency: 3044117 usec
+    p95 latency: 3188279 usec
+    p99 latency: 3765043 usec
+    Avg HTTP time: 2760354 usec (send/recv 22668 usec + response wait 2737686 usec)
+  Server: 
+    Inference count: 480336
+    Execution count: 30021
+    Successful request count: 30021
+    Avg request latency: 2721337 usec (overhead 30 usec + queue 2678186 usec + compute input 5546 usec + compute infer 37552 usec + compute output 22 usec)
+
+Inferences/Second vs. Client p90 Batch Latency
+Concurrency: 64, throughput: 370.588 infer/sec, latency 3044117 usec

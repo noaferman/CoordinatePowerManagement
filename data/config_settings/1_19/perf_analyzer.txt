@@ -1,0 +1,10 @@
+*** Measurement Settings ***
+  Batch size: 19
+  Using "count_windows" mode for stabilization
+  Minimum number of samples in each window: 10000
+  Using synchronous calls for inference
+  Stabilizing using p99 latency
+
+Request concurrency: 1
+Interrupt signal (2) received.
+Waiting for in-flight inferences to complete.
