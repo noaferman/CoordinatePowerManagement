@@ -1,1 +1,1 @@
-# CoordinatePowerManagement
+# CoordinatedPowerManagement
